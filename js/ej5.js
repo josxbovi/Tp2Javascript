@@ -13,11 +13,11 @@ let dni = 0;
 let letra = "";
 let resto = 0;
 let letras = "TRWAGMYFPDXBNJZSQVHLCKE";
-let continuar = true;
+let continuar1 = true;
 do {
     dni = prompt("Introduce tu DNI");
     if (dni == null) {
-        continuar = false;
+        continuar1 = false;
     } else {
         if (isNaN(dni)) {
             alert("No es un número");
@@ -27,5 +27,5 @@ do {
             alert("La letra de tu DNI es: " + letra);
         }
     }
-} while (continuar);
+} while (continuar1);
 alert("Fin del programa");

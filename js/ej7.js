@@ -10,15 +10,15 @@
 */
 
 let numero = parseInt(prompt("Introduce un número entre 1 y 50:"));
-let piramide = "";
+let piramide1 = "";
 if (numero > 0 && numero <= 50) {
     for (let i = numero; i >= 1; i--) {
         for (let j = 1; j <= i; j++) {
-            piramide += i;
+            piramide1 += i;
         }
-        piramide += "\n";
+        piramide1 += "\n";
     }
-    alert(piramide);
+    alert(piramide1);
 } else {
     alert("El número introducido no es válido.");
 }
